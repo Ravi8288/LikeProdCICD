@@ -11,9 +11,9 @@ jobs:
       run: mkdir reports
       
     - name: Run JMeter Tests
-      uses: ./
+      uses: ./performance_tests
       with:
-        test-plan-path: ./TestPlans/S01_SimpleExample/S01_SimpleExample.jmx
+        test-plan-path: ./Demo.jmx
         args: "-e -o ./reports/html/"
         
     - name: Upload Results
