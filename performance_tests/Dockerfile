@@ -1,7 +1,5 @@
 FROM alpine:3.18
 
-LABEL Author="NaveenKumar Namachivayam"
-LABEL Website="https://qainsights.com"
 LABEL Description="Apache JMeter Dockerfile for GitHub Actions with JMeter Plugins"
 
 ENV JMETER_VERSION "5.6.3"
